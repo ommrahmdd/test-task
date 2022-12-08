@@ -94,7 +94,7 @@ export default function AddUsersTableTs() {
     mockData.push({
       key: i + 1,
       empty: (
-        <div className="flex justify-center items-center w-5 h-6 border-2 font-bold border-mainColor text-mainColor bg-white lg:w-8 lg:h-9">
+        <div className="flex justify-center items-center w-5 h-6 border-2 font-bold border-mainColor text-mainColor bg-mainColorLighter lg:w-8 lg:h-9">
           <span>{i + 1}</span>
         </div>
       ),
