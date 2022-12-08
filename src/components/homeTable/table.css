@@ -1,0 +1,92 @@
+/* STYLE: all table */
+.ant-table-wrapper {
+  border: 0.08rem solid rgba(128, 128, 128, 0.575) !important;
+  border-top: none !important;
+  border-radius: 2rem;
+}
+/* STYLE: Header */
+.ant-table-thead tr th {
+  background-color: white !important;
+  border-top: 0.1rem solid #fb2576;
+  border-bottom: 0.1rem solid #fb2576 !important;
+}
+.ant-table-thead tr th:first-child {
+  border-left: 0.1rem solid #fb2576;
+  border-top-left-radius: 2rem !important;
+  border-bottom-left-radius: 2rem !important;
+}
+.ant-table-thead tr th:last-child {
+  border-right: 0.1rem solid #fb2576;
+  border-top-right-radius: 2rem !important;
+  border-bottom-right-radius: 2rem !important;
+}
+
+/* STYLE: Cells */
+.ant-table-cell {
+  padding: 1.3rem 0 !important;
+  font-weight: 500;
+  color: #1e293b;
+  opacity: 0.9;
+}
+
+/* STYLE: Pagination */
+.ant-pagination {
+  border-top: 0.1rem solid rgba(128, 128, 128, 0.37);
+  justify-content: center !important;
+  padding-top: 1rem;
+  margin-top: 4rem !important;
+}
+
+.ant-pagination-prev {
+  position: absolute;
+  left: 0;
+}
+.ant-pagination-prev:after {
+  content: "Previous";
+  position: absolute;
+  top: 0.25rem;
+  left: 2rem;
+  font-weight: 600;
+  color: #1e293b;
+  opacity: 0.95;
+}
+
+.ant-pagination-next {
+  position: absolute;
+  right: 0;
+}
+.ant-pagination-next:after {
+  content: "Next";
+  position: absolute;
+  top: 0.25rem;
+  right: 2rem;
+  font-weight: 600;
+  color: #1e293b;
+  opacity: 0.95;
+}
+.ant-pagination-item {
+  position: relative;
+}
+.ant-pagination-item a {
+  color: black !important;
+}
+.ant-pagination-item:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.15rem;
+  background-color: #fb2576;
+  top: -1.13rem;
+  left: 0;
+  opacity: 0;
+  border-radius: 20%;
+}
+.ant-pagination-item-active {
+  border: none !important;
+}
+.ant-pagination-item-active a {
+  color: #fb2576 !important;
+}
+.ant-pagination-item-active:before {
+  opacity: 1;
+}

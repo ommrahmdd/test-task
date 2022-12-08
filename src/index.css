@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .details[open] .arrow {
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in-out;
+  }
+  .details[open] {
+    transition: all 0.3s ease-in-out;
+  }
+  .itemActive {
+    color: #fb2576;
+    border: 0.08rem solid #fb2576;
+    border-radius: 3rem;
+  }
+}

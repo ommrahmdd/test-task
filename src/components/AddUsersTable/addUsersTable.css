@@ -1,0 +1,38 @@
+.addUsersTable {
+  margin-top: 1rem;
+}
+.addUsersTable .ant-table-thead tr th {
+  background-color: rgba(128, 128, 128, 0.095) !important;
+  border-top: 0.1rem solid rgba(128, 128, 128, 0.196);
+  border-bottom: 0.1rem solid rgba(128, 128, 128, 0.196) !important;
+}
+
+.addUsersTable .ant-table-thead tr th:first-child {
+  border-left: 0.1rem solid rgba(128, 128, 128, 0.247);
+  border-top-left-radius: 0.5rem !important;
+  border-bottom-left-radius: 0.5rem !important;
+}
+.addUsersTable .ant-table-thead tr th:last-child {
+  border-right: 0.1rem solid rgba(128, 128, 128, 0.19);
+  border-top-right-radius: 0.5rem !important;
+  border-bottom-right-radius: 0.5rem !important;
+}
+
+.addUsersTable .ant-table-wrapper {
+  border: none !important;
+  border-radius: 0;
+}
+.addUsersTable tbody tr td:first-child::before {
+  content: "";
+  position: absolute;
+  left: 37%;
+  transform: translateX(-37%);
+  z-index: -1;
+  height: 100%;
+  width: 0.1rem;
+  background-color: #fb2576;
+}
+
+.ant-table-cell-row-hover {
+  z-index: 1 !important;
+}
