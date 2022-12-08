@@ -111,12 +111,12 @@ export default function HomeTs() {
       setIsActive(false);
     } else {
       (arrowRef.current as any).style.transform = "rotate(0)";
-      (arrowRef.current as any).style.left = "15rem";
+      (arrowRef.current as any).style.left = "17.5rem";
       (arrowRef.current as any).style.transition = ".1 all ease-in-out";
 
       (sideRef.current as any).style.opacity = "3";
       (sideRef.current as any).style.display = "block";
-      (sideRef.current as any).style.width = "16.666667%";
+      (sideRef.current as any).style.width = "18rem";
       setIsActive(true);
     }
   };
