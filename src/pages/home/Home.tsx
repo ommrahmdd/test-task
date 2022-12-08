@@ -44,7 +44,7 @@ export default function Home() {
         <main className="">
           {/* Arrow Button */}
           <button
-            className="fixed z-20 bg-white text-mainColor cursor-pointer left-48  top-28 text-xl  rounded-full p-1 shadow-md transition-all duration-500 ease-in-out hover:bg-mainColor hover:text-white md:left-60"
+            className="fixed z-20 bg-white text-mainColor cursor-pointer left-60  top-28 text-xl  rounded-full p-1 shadow-md transition-all duration-500 ease-in-out hover:bg-mainColor hover:text-white md:left-60"
             ref={arrowRef}
             onClick={handleSideActivation}
           >
