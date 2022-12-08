@@ -76,6 +76,7 @@ export default function Home() {
                     paddingRight: "1rem",
                     color: "#1e293b",
                     cursor: "pointer",
+                    width: "100%",
                   }),
                 }}
               />
