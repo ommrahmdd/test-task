@@ -44,7 +44,7 @@ export default function Home() {
         <main className="">
           {/* Arrow Button */}
           <button
-            className="fixed z-20 bg-white text-mainColor cursor-pointer left-60  top-28 text-xl  rounded-full p-1 shadow-md transition-all duration-500 ease-in-out hover:bg-mainColor hover:text-white md:left-60"
+            className="fixed z-20 bg-white text-mainColor cursor-pointer left-52  top-28 text-xl  rounded-full p-1 shadow-md transition-all duration-500 ease-in-out hover:bg-mainColor hover:text-white md:left-60 "
             ref={arrowRef}
             onClick={handleSideActivation}
           >
@@ -52,7 +52,7 @@ export default function Home() {
           </button>
           {/* Sidebar */}
           <div
-            className="w-8/12 h-full px-3  fixed top-0 left-0 z-10 border-r-2 border-secondaryColor border-opacity-30 shadow-sm bg-white transition-all duration-300 ease-in-out md:w-4/12 lg:w-2/12"
+            className="w-8/12 h-full px-3  fixed top-0 left-0 z-10 border-r-2 border-secondaryColor border-opacity-30 shadow-sm bg-white transition-all duration-300 ease-in-out md:w-3/12 lg:w-2/12"
             ref={sideRef}
           >
             {/* Main Content */}
@@ -109,7 +109,7 @@ export default function Home() {
                         <ul className="flex flex-col items-start mt-2">
                           {item.items?.map((internalItem, index) => (
                             <li
-                              className="py-2 font-semibold capitalize transition-all duration-300 ease-in-out hover:opacity-30"
+                              className="py-2 font-semibold capitalize transition-all duration-300 ease-in-out text-xs lg:text-sm hover:opacity-30"
                               key={index}
                             >
                               <Link to={internalItem.to}>
@@ -142,7 +142,7 @@ export default function Home() {
                       <ul>
                         {item.items?.map((internalItem, index) => (
                           <li
-                            className="my-3 font-semibold capitalize"
+                            className="my-3 font-semibold capitalize  text-xs lg:text-sm"
                             key={index}
                           >
                             <Link to={internalItem.to}>{internalItem.to}</Link>
